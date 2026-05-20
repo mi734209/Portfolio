@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michael Torres - Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">MT</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Michael Torres</h1>
+      <p class="hero-subtitle">Information Technology Graduate | Full-Stack Developer</p>
+      <p class="hero-description">Showcasing my university projects and technical work from UCF</p>
+      <div class="hero-buttons">
+        <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+        <a href="https://mi734209.github.io/Resume/resume.html" class="btn btn-secondary">View Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>University of Central Florida Graduate</h3>
+          <p>
+           Since High School, I had a strong interest in technology and computers, which led me to pursue a degree in Information 
+           Technology at the University of Central Florida. During my time at UCF, I have developed a solid foundation in programming, networking, and 
+           system administration through coursework and hands-on projects. I am passionate about learning new technologies and applying my skills to solve 
+           real-world problems.
+          </p>
+          <p>
+            I love working on projects that challenge me to think critically and creatively. Whether it's building a web application, configuring a network, or 
+            creating a presentation, I enjoy the process of bringing ideas to life and sharing my work with others. My goal is to continue growing as a 
+            developer and contribute to meaningful projects in the tech industry. I enjoy System Administration, game development, cybersecurity, and 
+            programming in general.
+          </p>
+          <div class="quick-stats">
+            <div class="stat">
+              <h4 id="projectCount">0</h4>
+              <p>Projects</p>
+            </div>
+            <div class="stat">
+              <h4 id="techCount">0</h4>
+              <p>Technologies</p>
+            </div>
+            <div class="stat">
+              <h4>2026</h4>
+              <p>Graduation Year</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-skills">
+          <h3>Key Technologies</h3>
+          <div class="tech-list">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">C/C++</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">HTML/CSS</span>
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Networking</span>
+            <span class="tech-tag">C#</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">System Administration</span>
+            <span class="tech-tag">Godot</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+
+      <!-- Filter Buttons -->
+      <div class="filter-controls">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="coding">Coding</button>
+        <button class="filter-btn" data-filter="networking">Networking</button>
+        <button class="filter-btn" data-filter="presentation">Presentations</button>
+        <button class="filter-btn" data-filter="other">Other</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+
+        
+        <div class="project-card" data-category="networking">
+          <div class="project-header">
+            <h3>Custom PokeBuilder</h3>
+            <span class="project-category">Networking</span>
+          </div>
+          <p class="project-description">
+            Utilizing Fetch API, I created a web application that allows users to search for Pokémon and view their stats, abilities, and types. 
+            This project demonstrates my ability to work with APIs, handle asynchronous data fetching, and create a user-friendly interface using 
+            HTML/CSS and JavaScript.
+          </p>
+          <div class="project-tech">
+            <span class="tech">Fetch</span>
+            <span class="tech">JavaScript</span>
+            <span class="tech">HTML/CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://mi734209.github.io/CIS4004-Assignments/week6/poke.html" class="link-btn" target="_blank">View Project</a>
+            <a href="https://mi734209.github.io/Portfolio/pokeScript.zip" download="pokeScript.zip" class="link-btn" target="_blank">View Code</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="coding">
+          <div class="project-header">
+            <h3>Developing A Three-Tier Distributed Web-Based Application</h3>
+            <span class="project-category">Coding</span>
+          </div>
+          <p class="project-description">
+            This project involved creating a three-tier web application using Java for the backend, SQL for the database, and HTML/CSS for the frontend. 
+            The application allows users to perform CRUD operations on a dataset, demonstrating my skills in full-stack development and database management.
+          </p>
+          <div class="project-tech">
+            <span class="tech">Java</span>
+            <span class="tech">SQL</span>
+            <span class="tech">Apache</span>
+            <span class="tech">HTML/CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://mi734209.github.io/Portfolio/CNT4714_Project4.zip" download="CNT4714_Project4.zip" class="link-btn" target="_blank">
+              View Application/Code</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="presentation">
+          <div class="project-header">
+            <h3>Amazon Deepfleet Presentation</h3>
+            <span class="project-category">Presentation</span>
+          </div>
+          <p class="project-description">
+            Using Figma, I created a presentation on Amazon Deepfleet, showcasing my ability to design visually appealing and informative presentations. 
+             This project highlights my skills in research, design, and communication, as I effectively conveyed complex information about Amazon's Deepfleet 
+             project in an engaging and accessible format. I also utilized Figma's newest Make feature to create a dynamic and interactive presentation that 
+             enhances the viewer's experience using the latest Generative AI technology.
+          </p>
+          <div class="project-tech">
+            <span class="tech">Figma Make</span>
+          </div>
+          <div class="project-links">
+            <a href="https://table-facet-53492327.figma.site" class="link-btn" target="_blank">Presentation Link</a>
+            <a href="https://drive.google.com/file/d/1W6bRUbmvg8dh6isz27_CcfYDsy06jYyA/view?usp=drive_link" class="link-btn" target="_blank">Video Link</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="networking">
+          <div class="project-header">
+            <h3>ESPN Fantasy Football Mern Stack Project</h3>
+            <span class="project-category">Networking</span>
+          </div>
+          <p class="project-description">
+            This project involved creating a three-tier web application using MERN stack (MongoDB, Express.js, React, Node.js) for the backend and frontend. 
+             The application allows users to perform CRUD operations on a dataset, demonstrating my skills in full-stack development and database management.
+             We used it to create a mock ESPN website that allows users to view player stats in order to make informed decisions about their fantasy football 
+             teams. This project showcases my ability to work with modern web technologies and create a responsive and user-friendly interface, as well
+             as my ability to work in a team as it was a group project. 
+          </p>
+          <div class="project-tech">
+            <span class="tech">MongoDB</span>
+            <span class="tech">Express.js</span>
+            <span class="tech">React</span>
+            <span class="tech">Node.js</span>
+            <span class="tech">HTML/CSS</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Derby35/YouLikeThat"  class="link-btn" target="_blank">View Application/Code</a>
+            <a href="https://docs.google.com/presentation/d/1DDyCLBUOMqFaCJUtvtkGh1m6EvPv98kykKWwxSbr9fs/edit?usp=sharing"  class="link-btn" 
+            target="_blank">View Presentation</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="presentation">
+          <div class="project-header">
+            <h3>StudySpot Prototype Presentation</h3>
+            <span class="project-category">Presentation</span>
+          </div>
+          <p class="project-description">
+            Using Figma Make and Google Slides, I created a presentation on StudySpot, showcasing my ability to design visually appealing and 
+            informative presentations. StudySpot is meant to be a study space finder that allows users to find the best places to study on campus 
+            based on their preferences and needs. This project highlights my skills in research, design, and communication, as I effectively conveyed complex 
+            information about the StudySpot prototype project in an engaging and accessible format. I utilized Figma's Make feature to create a dynamic 
+            and interactive presentation that enhances the viewer's experience using the latest Generative AI technology, and I also used Google Slides to 
+            create a more traditional presentation format that is easy to share and collaborate on with others.
+          </p>
+          <div class="project-tech">
+            <span class="tech">Figma Make</span>
+            <span class="tech">Google Slides</span>
+          </div>
+          <div class="project-links">
+            <a href="https://docs.google.com/presentation/d/1rXosuAOiNB7-SmFQnthntyTuzGphpadX-X2jWtzixHs/edit?usp=sharing" class="link-btn" target="_blank">Presentation Link</a>
+            <a href="https://laptop-sound-52565044.figma.site" class="link-btn" target="_blank">Prototype Link</a>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <p class="contact-intro">Feel free to reach out! I'm always interested in connecting.</p>
+
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="info-item">
+            <h4>Email</h4>
+            <a href="mailto:mi734209@outlook.com">mi734209@outlook.com</a>
+          </div>
+          <div class="info-item">
+            <h4>LinkedIn</h4>
+            <a href="https://www.linkedin.com/in/michael-torres-a749ba174/" target="_blank">linkedin.com/in/michael-torres</a>
+          </div>
+          <div class="info-item">
+            <h4>Phone Number</h4>
+            <p>912-492-6840</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Michael Torres. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
