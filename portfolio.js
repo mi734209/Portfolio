@@ -2,6 +2,10 @@
 const filterButtons = document.querySelectorAll('.filter-btn');
 const projectCards = document.querySelectorAll('.project-card');
 
+requestAnimationFrame(() => {
+  document.body.classList.add('page-loaded');
+});
+
 filterButtons.forEach(button => {
   button.addEventListener('click', () => {
     const selectedFilter = button.getAttribute('data-filter');
